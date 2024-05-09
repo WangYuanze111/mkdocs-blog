@@ -23,6 +23,10 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/WangYuanze111
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/MaelOmbdQYHxu2c
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/457805155?spm_id_from=333.1007.0.0
   analytics:
     provider: google
     property: G-KJB4RXSKZG
