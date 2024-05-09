@@ -27,6 +27,8 @@ extra:
       link: https://twitter.com/MaelOmbdQYHxu2c
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/457805155?spm_id_from=333.1007.0.0
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<wangyuanze.hlx@gmail.com> #联系方式
   analytics:
     provider: google
     property: G-KJB4RXSKZG
