@@ -33,3 +33,31 @@ int main() {
 	return 0;
 }
 ```
+### 2.编写函数，求给定字符串中数字字符的个数，在主函数中输入字符串及输出统计的个数。
+input sample
+```
+abc123fg
+```
+output sample
+3
+``` c linenums="1"
+#include<stdio.h>
+
+int f(char s[]) {
+	int cnt = 0;
+	int i = 0;
+	for (i = 0;; i++) {
+		if (s[i] == '\0') break;
+		if (s[i] > '0' && s[i] < '9') cnt++;
+	}
+	return cnt;
+}
+
+int main() {
+	char s[1000];
+	scanf("%s", s);
+	int ans = f(s);
+	printf("%d", ans);
+	return 0;
+}
+```
