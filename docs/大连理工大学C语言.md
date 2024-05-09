@@ -73,7 +73,7 @@ Output sample
 ```
 3
 ```
-``` cpp linenums=1
+``` cpp linenums="1"
 #include<stdio.h>
 
 int  aver(int a[],int n){
@@ -101,7 +101,7 @@ int main(){
 ```
 ### 4.用指针编写函数 insert(s1,s2,f)，其功能是在字符串s1中的指定位置f处插入字符串s2
 
-``` cpp linenums=1
+``` cpp linenums="1"
 #include<stdio.h>
 
 void insert(char s1[] , char s2[],int f){
