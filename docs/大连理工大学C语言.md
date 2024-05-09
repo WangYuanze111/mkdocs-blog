@@ -1,0 +1,34 @@
+# 第九周
+## 1.编写函数，求e=1+1/1!+1/2!+1/3!+……+1/n!的值。
+input sample
+```
+10
+```
+output sample
+```
+e=2.7183
+```
+
+``` c linenums="1"
+#include<stdio.h>
+
+float f(int x) {
+	int t = 1;
+	float ans = 1;
+	int i;
+	for (i = 1; i <= x; i++) {
+		t *= i;
+		ans += 1.0 / t;
+	}
+	return ans;
+}
+
+int main() {
+	float e;
+	int n;
+	scanf_s("%d", &n);
+	e = f(n);
+	printf("e=%.4f", e);
+	return 0;
+}
+```
