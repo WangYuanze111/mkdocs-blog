@@ -99,7 +99,54 @@ int main(){
 	return 0;
 }
 ```
-### 4.用指针编写函数 insert(s1,s2,f)，其功能是在字符串s1中的指定位置f处插入字符串s2
+### 4.编写函数用冒泡排序法将二维数组a[3][3]中的9个整数分别按照所属各行进行由大到小的排序。
+``` c linenums="1"
+#include<stdio.h>
+void Sort(int (*a)[3]){
+	int i;
+	for(i = 0;i<3;i++){
+		int j;
+		for(j = 1;j<=2;j++){
+			int k;
+			for(k = 0;k<2;k++){
+				if(a[i][k]>a[i][k+1]){
+					int t = a[i][k];
+					a[i][k]	= a[i][k+1];
+					a[i][k+1] = t;	
+	 			}	
+			}
+		}
+	}
+}
+int main(){
+	int a[3][3];
+	for(int i = 0;i<3;i++){
+		for(int j = 0;j<3;j++)
+			scanf("%d",&a[i][j]);
+	}
+	Sort(a);
+	for(int i = 0;i<3;i++){
+		for(int j = 0;j<3;j++)
+			printf("%d",a[i][j]);
+		printf("\n");
+	}
+	return 0;
+}
+```
+### 5.编写递归函数求x的n次方, 并调用此函数求2的5次方
+``` c linenums="1"
+#include<stdio.h>
+int Pow(int x , int n){
+	if(n==0) return 1;
+	return x*Pow(x,n-1);
+}
+int main(){
+	int a = Pow(2,5);
+	printf("%d",a);
+	return 0;
+}
+```
+### 6.用指针编写函数 insert(s1,s2,f)，其功能是在字符串s1中的指定位置f处插入字符串s2
 
 ``` cpp linenums="1"
 #include<stdio.h>
