@@ -19,6 +19,8 @@ theme:
         name: Switch to light mode
       primary: pink
       accent: blue
+  features:
+    - content.code.copy
   icon: 
     repo: fontawesome/brands/github #右上角图标
 edit_uri: edit/main/docs # 编辑按钮跳转的链接 
