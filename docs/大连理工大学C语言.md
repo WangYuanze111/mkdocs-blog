@@ -178,6 +178,153 @@ int main(){
 	return 0;
 }
 ```
+## Week 10
+### 1.x的n次方
+编写求x的n次方的递归函数，在主函数调用并输出。(x为double型，n为整型，函数类型为double型）
+
+Input Sample
+```
+4 3
+```
+Output Sample
+```
+64.000000
+```
+
+``` c linenums="1"
+#include<stdio.h>
+
+double Pow(double x , int n){
+	if(n==0) return 1;
+	return x*Pow(x , n-1);
+}
+int main(){
+	double a ;
+	int b;
+	scanf("%lf%d" , &a,&b);
+	printf("%lf" , Pow(a , b));
+	return 0;
+}
+```
+### 2.输出最大最小数
+编写函数，通过键盘输入10个整数，找出其中最大的数和最小的数，在主调函数中输入数据和结果。
+
+Input Sample
+```
+2 3 4 1 7 6 8 9 26 35
+```
+Output Sample
+```
+max=35,min=1
+```
+
+``` c linenums="1"
+#include<stdio.h>
+int Max(int p[]){
+	int ans = p[0];
+	for(int i = 1;i<10;i++)
+		if(ans<p[i]) ans = p[i];
+	return ans;
+}
+int Min(int p[]){
+	int ans = p[0];
+	for(int i = 1;i<10;i++)
+		if(ans>p[i]) ans = p[i];
+	return ans;
+}
+int main(){
+	int a[10];
+	for(int i = 0;i<10;i++){
+		scanf("%d" , &a[i]);
+	}
+	printf("max=%d,min=%d" , Max(a) , Min(a));
+	return 0;
+}
+```
+### 3.任意整数转换为千分位分隔的字符形式。
+编写函数，对于任意输入的一个整数，转换为千分位分隔的字符形式，在主函数中调用并输出。
+
+Input Sample
+```
+123456
+```
+Output Sample
+```
+123,456
+```
+``` c linenums="1"
+#include<stdio.h>
+void f(int n){
+	char s[50];
+	int len = 0;
+	int cnt = 0;
+	while(n){
+		int t = n%10;
+		if(len && (len-cnt)%3==0){
+			s[len] = ',';
+			len++;
+			cnt++;
+		}
+		s[len] = t+'0';
+		len++;
+		n/=10;
+	}
+	for(int i = len-1;i>=0;i--)
+		putchar(s[i]);
+}
+int main(){
+	int x;
+	scanf("%d",&x);
+	f(x);
+	return 0;
+}
+```
+### 4.找数
+编写函数，输入N个整数，将它们存入数组a中，再输入一个整数x，然后在数组中
+查找x，如果找到，输出相应的下标，否则，输出"Not Found"。要求在主函数中输入10个整数及查找结果。
+
+Input Sample 1
+```
+1 2 3 4 5 6 7 8 9 10
+5
+```
+Output Sample 1
+```
+5
+```
+Input Sample 2
+```
+1 2 3 4 5 6 7 8 9 10
+11
+```
+Output Sample 2
+```
+Not Found
+```
+``` c linenums="1"
+#include<stdio.h>
+void Find(int num[] , int x){
+	for(int i = 0;i<10;i++){
+		if(num[i] == x){
+			printf("%d",i+1);
+			return ;
+		}
+	}
+	printf("Not Found");
+	return ;
+}
+int main(){
+	int a[10];
+	for(int i = 0;i<10;i++){
+		scanf("%d" , &a[i]);
+	}
+	int n;
+	scanf("%d" , &n);
+	Find(a,n);
+	return 0;
+}
+```
+
 
 
 
