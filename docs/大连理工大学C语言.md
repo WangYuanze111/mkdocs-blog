@@ -1,11 +1,11 @@
 # 大连理工大学C语言作业
-## 第九周
+## Week 9
 ### 1.编写函数，求e=1+1/1!+1/2!+1/3!+……+1/n!的值。
-input sample
+Input sample
 ```
 10
 ```
-output sample
+Output sample
 ```
 e=2.7183
 ```
@@ -34,11 +34,11 @@ int main() {
 }
 ```
 ### 2.编写函数，求给定字符串中数字字符的个数，在主函数中输入字符串及输出统计的个数。
-input sample
+Input sample
 ```
 abc123fg
 ```
-output sample
+Output sample
 ```
 3
 ```
