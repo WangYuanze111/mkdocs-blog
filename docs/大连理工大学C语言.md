@@ -226,7 +226,9 @@ void quicksort(int a[]  , int l , int r){
 ```cpp
 sort(a+1,a+1+n);
 ```
->[!tip] 必要时可以为sort()添加第三个参数cmp实现特定方式排序
+!!! tip
+
+	必要时可以为sort()添加第三个参数cmp实现特定方式排序
 
 在单调递增的数列a中查找≥x的数中最小的一个
 ``` cpp
