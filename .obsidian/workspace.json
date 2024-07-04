@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "d31d693c3515b201",
+    "type": "split",
+    "children": [
+      {
+        "id": "90cba81aa2ea3434",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c5f55524f88c608",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "403ce015cd0a8b7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a2f868b31ebcbfe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ef3d0edbdaf59ce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6fd5e6cd8ec92889",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fc05c9288490da1a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "20805b1aa27ff54f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0506bbc19f8cd3a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d330676c68ed5b85",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a780baedf9239c40",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7e8aedd57522b215",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ea3cc32840c0c145",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "9ef3d0edbdaf59ce",
+  "lastOpenFiles": [
+    "docs/读书笔记/《光变》/第一章：北京电子管厂的兴衰.md",
+    "docs/读书笔记/《光变》",
+    "docs/读书笔记/2.md",
+    "docs/读书笔记/1.md",
+    "docs/读书笔记",
+    "docs/大连理工大学C语言.md"
+  ]
+}
