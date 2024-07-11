@@ -16,7 +16,7 @@ Windows11环境下的Arduino IDE 2.3.2
 ## 实验原理
 利用不同传感器获取环境数据
 ## 实验代码
-```cpp linenums = '1'
+```cpp linenums="1"
 #include "DHT.h"
 #define DHTPIN 2     // 定义连接DHT传感器的引脚
 #define DHTTYPE DHT11   // DHT11 或 DHT22
